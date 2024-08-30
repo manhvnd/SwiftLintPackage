@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
+    let number = NSObject() as! Int
+    let colonOnWrongSide: String = "ádjhasjkdhsakfgdhdsfjksaghfhgjdsfghdsjsghkjfgdhjsgfhjsdbfhjbsddsf"
     var body: some View {
         VStack {
             Image(systemName: "globe")
